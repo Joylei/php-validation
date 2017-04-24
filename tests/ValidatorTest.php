@@ -41,7 +41,7 @@ class ValidatorTest extends TestCase{
 
     public function testValidate(){
         $validator = new Validator(false);
-        $ruleSet = $validator->ruleFor('field1',function(){
+        $validator->ruleFor('field1',function(){
             $this->isRequired('required');
             $this->isNumber('is number');
         })->end()->ruleFor('field2', function(){
