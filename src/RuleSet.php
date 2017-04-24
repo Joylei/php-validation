@@ -1,8 +1,6 @@
 <?php
 namespace Joylei\Validation;
 
-use Common\TextKit;
-
 class RuleSet
 {
     protected $rules;
