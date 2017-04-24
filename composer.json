@@ -1,0 +1,27 @@
+{
+    "name": "joylei/php-validation",
+    "description": "Fluent validation for php",
+    "type": "library",
+    "version": "0.1.0",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8 < 6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "joylei",
+            "email": "leingliu@gmail.com"
+        }
+    ],
+    "scripts": {
+        "test": "phpunit tests"
+    },
+    "autoload": {
+        "psr-4": {
+            "JoyLei\\Validation\\": "src/"
+        }
+    }
+}
